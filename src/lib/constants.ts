@@ -1,0 +1,9 @@
+export const STORAGE_BUCKET = "photos";
+export const MAX_UPLOAD_BYTES = 3 * 1024 * 1024;
+export const MAX_IMAGE_EDGE = 1600;
+export const JPEG_QUALITY = 0.85;
+export const DEFAULT_SHOTS_LIMIT = 10;
+export const DEVICE_COOKIE_NAME = "disposable_camera_device";
+export const ADMIN_COOKIE_NAME = "disposable_camera_admin";
+export const UPLOAD_RESERVATION_TTL_SECONDS = 15 * 60;
+export const SIGNED_URL_TTL_SECONDS = 8 * 60;
